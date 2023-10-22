@@ -12,9 +12,9 @@ def ReNamefilesInfo(Path, oldInfo, newInfo):
             newitemPath = os.path.join(Path, newitem)
             shutil.move(itemPath, newitemPath)
 
-# # TODO 设置Path的值(设置根目录)
+# TODO 设置Path的值(设置根目录)
 Path = ""
-# # # TODO 设置oldInfo,newInfo的值（设置需要删除的文件，非文件夹）
+# TODO 设置oldInfo,newInfo的值（设置需要删除的文件，非文件夹）
 oldInfo = ""
 newInfo = ""
 
